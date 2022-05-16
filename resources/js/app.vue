@@ -14,6 +14,12 @@
     	        <li class="nav-item">
     	        	<router-link :to="{ name: 'ItemIndex' }"  class="nav-link">Items</router-link>
     	        </li>
+                <li class="nav-item">
+                    <router-link :to="{ name: 'UserIndex' }"  class="nav-link">Users</router-link>
+                </li>
+                <li class="nav-item">
+                    <router-link :to="{ name: 'RoleIndex' }"  class="nav-link">Roles</router-link>
+                </li>
     	        <li class="nav-item dropdown">
     	          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     	            Dropdown
