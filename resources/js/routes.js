@@ -1,5 +1,6 @@
 import UserIndex from './components/users/index.vue';
 import RoleIndex from './components/roles/index.vue';
+import RoleCreate from './components/roles/create.vue';
 import ItemIndex from './components/items/index.vue';
 import ItemCreate from './components/items/create.vue';
 import ItemEdit from './components/items/edit.vue';
@@ -14,6 +15,11 @@ export const routes = [
         path: '/roles',
         component: RoleIndex,
         name: "RoleIndex"
+    },
+    {
+        path: '/roles/create',
+        component: RoleCreate,
+        name: "RoleCreate"
     },
     {
         path: '/items',

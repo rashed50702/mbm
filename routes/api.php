@@ -23,4 +23,5 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::resource('items', ItemController::class);
 Route::resource('roles', RoleController::class);
+Route::get('permissions', [RoleController::class, 'permissions']);
 Route::resource('users', UserController::class);

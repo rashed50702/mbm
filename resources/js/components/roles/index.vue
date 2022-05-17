@@ -3,7 +3,7 @@
         <h2 class="text-center">Roles List</h2>
         <div class="row">
             <div class="col-md-12">
-                <router-link :to="{ name: 'ItemCreate' }" class="btn btn-primary btn-sm float-right mb-2">Add Role</router-link>
+                <router-link :to="{ name: 'RoleCreate' }" class="btn btn-primary btn-sm float-right mb-2">Add Role</router-link>
             </div>
         </div>
         <div class="row">
